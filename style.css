@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.konten {
+    width: 680px;
+    height: 100vh;
+    background: rgb(0,255,162,1);
+    background: linear-gradient(0deg, rgba(56,241,106) 20%, rgba(0,235,255,1) 100%);
+}
+.profil {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    
+}
+.profil img {
+    width: 160px;
+    height: 160px;
+    border: 5px solid #001cb9;
+    border-radius: 50%;
+    box-shadow: -3px -3px 7px #000,
+                 3px 3px 7px #000;
+
+}
+.profil h2 {
+    font-size: 32px;
+    font-family: calibri;
+    font-weight: 600;
+    color: #00013f;
+    margin-top: 20px;
+    padding: 10px;
+}
+.profil p {
+    font-size: 22px;
+    font-family: calibri;
+    font-weight: 600;
+    color: #2b2c5c;
+    margin-top: 10px;
+}
+.sosmed {
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.sosmed a {
+    margin: 5px 10px;
+    padding: 10px;
+    border: 1px solid #00013f;
+    border-radius: 10px;
+    width: 350px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 24px;
+    font-family: calibri;
+    font-weight: 600;
+    color: #00013f;
+    background: hsla(174, 91%, 79%, 1);
+    background: linear-gradient(90deg, hsla(174, 91%, 79%, 1) 0%, hsla(0, 0%, 100%, 1) 100%);
+    background: -moz-linear-gradient(90deg, hsla(174, 91%, 79%, 1) 0%, hsla(0, 0%, 100%, 1) 100%);
+    background: -webkit-linear-gradient(90deg, hsla(174, 91%, 79%, 1) 0%, hsla(0, 0%, 100%, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#99FAF0", endColorstr="#FFFFFF", GradientType=1 );
+    box-shadow: -1px -1px 5px #000,
+                 1px 1px 5px #000;
+}
+.sosmed a i {
+    margin: 0 10px 0 0;
+}
+.sosmed a:hover {
+    background: #7aebff;
+    transform: scale(1.02);
+}
+footer {
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+    font-size: 18px;
+    font-family: calibri;
+    font-weight: 600;
+    color: #00013f;
+}
